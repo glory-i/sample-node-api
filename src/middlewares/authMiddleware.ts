@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 const JWT_SECRET = process.env.SECRET_KEY; 
-
+//
 
 export const authenticate = (req: Request, res: Response, next: NextFunction) => {
   const authHeader = req.headers.authorization;
