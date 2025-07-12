@@ -66,6 +66,8 @@ export const signIn = async (req: Request, res: Response) => {
     return
   };
 
+  //
+
   // Generate JWT
   const JWT_SECRET = process.env.SECRET_KEY; 
 
